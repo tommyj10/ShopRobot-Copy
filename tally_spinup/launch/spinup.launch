@@ -1,0 +1,17 @@
+<launch>
+	<node name="coloursensing" pkg="tally_coloursensor" type="coloursensor" output="screen"/>
+	<node name="inventory" pkg="tally_scanner" type="inventory" output="screen"/>
+	<node name="navigation" pkg="tally_navigator" type="navigate" output="screen"/>
+
+	<!-- SLAM -->
+        <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch">
+    	  <arg name="slam_methods" value="gmapping"/>
+  	</include>
+
+  	<!-- AMCL -->
+  	<include file="$(find turtlebot3_navigation)/launch/amcl.launch"/>
+
+  	<!-- Move Base -->
+  	<include file="$(find turtlebot3_navigation)/launch/move_base.launch"/>
+		
+</launch>

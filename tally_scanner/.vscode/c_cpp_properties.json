@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/parallels/catkin_ws/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/parallels/catkin_ws/src/beginner_tutorials/include",
+                "/home/parallels/catkin_ws/src/shoprobot/coloursensor/include",
+                "/home/parallels/catkin_ws/src/shoprobot/openslam_gmapping/include",
+                "/home/parallels/catkin_ws/src/shoprobot/qr-scanner/include",
+                "/home/parallels/catkin_ws/src/shoprobot/turtlebot3_simulations/turtlebot3_fake/include",
+                "/home/parallels/catkin_ws/src/shoprobot/turtlebot3_simulations/turtlebot3_gazebo/include",
+                "/home/parallels/catkin_ws/src/shoprobot/turtlebot3/turtlebot3_slam/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

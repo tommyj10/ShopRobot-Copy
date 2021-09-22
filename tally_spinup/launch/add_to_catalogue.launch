@@ -1,0 +1,3 @@
+<launch>
+	<node name="catalogue" pkg="tally_scanner" type="add_catalogue" output="screen"/>	
+</launch>

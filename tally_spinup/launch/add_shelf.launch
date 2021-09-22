@@ -1,0 +1,4 @@
+<launch>
+	<node name="coloursensing" pkg="tally_coloursensor" type="coloursensor" output="screen"/>
+	<node name="colouradding" pkg="tally_coloursensor" type="coloursave" output="screen"/>
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+	<node name="navigate_home" pkg="tally_navigator" type="navigate_home" output="screen"/>	
+</launch>

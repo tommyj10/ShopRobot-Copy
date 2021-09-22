@@ -1,0 +1,5 @@
+<launch>
+  <node name="navigator" pkg="tally_navigator" type="navigate" output="screen">
+  </node>
+</launch>
+
